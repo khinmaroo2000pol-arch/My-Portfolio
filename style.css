@@ -1,0 +1,157 @@
+
+:root {
+    --primary-purple: #CC7722;
+    --light-purple: #F9F2F7;
+    --text-dark: #333;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-dark);
+    scroll-behavior: smooth;
+    background-color: #fcfcfc;
+}
+
+/* Navbar Customization */
+.navbar-nav {
+    background: white;
+    border-radius: 50px;
+    margin-top: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    padding: 10px 30px;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin: 0 10px;
+    color: var(--text-dark) !important;
+}
+
+.nav-item a:hover {
+    background: var(--primary-purple);
+    color: white !important;
+    border-radius: 20px;
+    padding: 8px 20px !important;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 100px 0;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.btnproject a{
+ text-decoration: none;
+ 
+}
+.btnCV a{
+ text-decoration: none;
+ color: black;
+ 
+}
+.btnproject{
+    background: var(--primary-purple);
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    transition: 0.3s;
+}
+
+.btnCV{
+    background: white;
+    border-radius: 15px;
+    padding: 10px;
+    outline: none;
+    
+    border: 2px solid var(--primary-purple);
+}
+.profile-img-container {
+    width: 300px;
+    height: 300px;
+    background-color: var(--primary-purple);
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.profile-img-container img {
+    height: auto;
+}
+
+/* Info Cards */
+.info-card {
+    
+    color: dark;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 30px var(--primary-purple);
+}
+
+/* skill  */
+.skill-box {
+    border: 1px solid #eee;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    height: 100%;
+    background: white;
+    transition: 0.3s;
+}
+
+.skill-box:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.skill-box i {
+    font-size: 40px;
+    color: var(--primary-purple);
+    margin-bottom: 20px;
+}
+
+.project-card {
+    border: 1px solid #eee;
+    border-radius: 20px;
+    overflow: hidden;
+    background: white;
+    transition: 0.3s;
+}
+
+.project-card:hover{
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.badge{
+    background-color: var(--light-purple);
+    /* color: dark; */
+}
+
+.section-title {
+    margin-bottom: 25px;
+    font-size: 36px;
+}
+
+/* education info box  */
+.info-box {
+    border: 1px solid #eee;
+    border-radius: 20px;
+    overflow: hidden;
+    background: white;
+    transition: 0.3s;
+}
+.info-box:hover{
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
